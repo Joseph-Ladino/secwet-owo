@@ -23,6 +23,7 @@ h2 {
 #wellareya {
     user-select: none;
     margin: auto;
+    padding: 0 0.1em;
     width: fit-content;
     background-color: pink;
     color: white;
