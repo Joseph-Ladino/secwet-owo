@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: dodgerblue;
+}
+
+h2 {
+    font-family: sans-serif, auto;
+}
+
+.centered {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#wellareya {
+    user-select: none;
+    margin: auto;
+    width: fit-content;
+    background-color: pink;
+    color: white;
+    display: none;
+}
+
+#wellareya:hover {
+    background-color: #FF9BB5;
+    cursor: pointer;
+}
+
+#wellareya:active    {
+    background-color: hotpink;
+}
