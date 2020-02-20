@@ -24,10 +24,12 @@ h2 {
     user-select: none;
     margin: auto;
     padding: 0 0.1em;
+    font-size: 12vmin;
+    border-radius: 2.5vmin;
+    box-shadow: 0.9vmin 0.8vmin rgba(255, 0, 0, 0.45);
     width: fit-content;
     background-color: pink;
     color: white;
-    display: none;
 }
 
 #wellareya:hover {
@@ -37,4 +39,12 @@ h2 {
 
 #wellareya:active    {
     background-color: hotpink;
+}
+
+/* styling for the free view counter */
+
+#besucherzaehler2 {
+    position: absolute;
+    right: 1.1em;
+    bottom: 0;
 }
