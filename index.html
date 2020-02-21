@@ -10,10 +10,10 @@
             <h2 id="wellareya">Am I trans?</h2>
         </div>
         <script type="text/javascript">
-        
+
             // we all know what this is
-            document.getElementById("wellareya").addEventListener("mouseup", _=>{location.href = "https://youtu.be/dQw4w9WgXcQ"});
-            document.getElementById("wellareya").addEventListener("touchup", _=>{location.href = "https://youtu.be/dQw4w9WgXcQ"});
+            document.getElementById("wellareya").addEventListener("mouseup", e => {if(e.button == 0) location.href = "https://youtu.be/dQw4w9WgXcQ"});
+            document.getElementById("wellareya").addEventListener("touchup", _ => {location.href = "https://youtu.be/dQw4w9WgXcQ"});
         </script>
 
         <!-- counter from free-counters.org.js -->
